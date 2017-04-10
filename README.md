@@ -1,15 +1,15 @@
-#Vk post
+# Vk post
 
 This script will post photos from user album to group wall. 
 
 Note: if you are using token, it should have `wall,photos,offline` permissions.
 
-##Install
+## Install
 ```bash
 pip3 install -r requirements.txt 
 ```
 
-##Usage
+## Usage
 ```bash
 login with password:
 	python3 main.py -vl <vk_login> -vp <vk_password>
